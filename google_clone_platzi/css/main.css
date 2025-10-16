@@ -14,6 +14,8 @@
 /* ----- VARIABLES ---- */
 :root {
   --text-color: #000000;
+  --sombra-input-container: #20212447;
+  --border-input-container: #dfe1e500;
 }
 
 body {
@@ -96,6 +98,32 @@ main .main-input-container {
 main .main-input input {
   width: 450px;
   height: 40px;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 var(--sombra-input-container);
+  border-color: var(--border-input-container);
+}
+
+main .main-input .search-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+main .main-input .micro-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
 }
 
 /* ----------------------- FOOTER ----------------------- */
