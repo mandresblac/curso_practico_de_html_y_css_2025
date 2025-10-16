@@ -8,7 +8,7 @@
   border: none;
   text-decoration: none;
   list-style: none;
-  outline: none;
+  outline: none; /* Elimina el borde de inputs y los buttons */
 }
 
 /* ----- VARIABLES ---- */
@@ -64,13 +64,11 @@ header nav .nav-right-section {
 /* ----------------------- MAIN ----------------------- */
 
 main {
-  /* background-color: red; */
   margin-top: 150px;
   text-align: center;
 }
 
 .main-logo {
-  /* background-color: blueviolet; */
   width: 530px;
   margin: 0 auto; /* Centra horizontalmente el elemento en la mitad del viewport */
   margin-bottom: 35px;
@@ -78,6 +76,26 @@ main {
 
 main .main-logo img {
   width: 387px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
 }
 
 /* ----------------------- FOOTER ----------------------- */
