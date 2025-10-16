@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
   text-decoration: none;
   list-style: none;
   outline: none;
@@ -48,9 +48,9 @@ header nav .nav-right-section {
 
 .menu-icon {
   background-image: url("https://static.thenounproject.com/png/756729-200.png");
-  background-repeat: no-repeat; /* No repite la imagen */
+  background-repeat: no-repeat; /* No repite la imagen del icono */
   background-position: center; /* Centra la imagen */
-  background-size: contain; /* contain para que la imagen ocupe el total del cotenedor */
+  background-size: contain; /* contain para que imagen ocupe el total del contenedor */
   display: block; /* Para dar un width y height a la etiqueta <a> que es tipo inline */
   width: 25px;
   height: 25px;
