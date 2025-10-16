@@ -39,9 +39,25 @@ header nav .nav-right-section {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
 .nav-right-section a {
   color: var(--text-color);
+}
+
+.menu-icon {
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-position: center; /* Centra la imagen */
+  background-size: contain; /* contain para que la imagen ocupe el total del cotenedor */
+  display: block; /* Para dar un width y height a la etiqueta <a> que es tipo inline */
+  width: 25px;
+  height: 25px;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
